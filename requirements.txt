@@ -1,11 +1,9 @@
 chainlit>=1.0.0
 openai>=1.0.0
 python-dotenv
-langchain>=0.1.0
+langchain-core
 langchain-openai
 langchain-community
 langchain-text-splitters
-langchain-core
-chromadb
+chromadb>=0.4.0,<0.5.0          # keep but pin version
 pypdf2
-unstructured
