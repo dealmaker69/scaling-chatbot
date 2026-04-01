@@ -85,7 +85,7 @@ async def setup_rag():
             await msg.update()
             return
 
-        retriever = vectorstore.as_retriever(search_kwargs={"k": 6})
+        retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
 
         # Your system prompt (with intent guidance added)
         system_prompt = f"""
