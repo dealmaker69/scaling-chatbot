@@ -5,5 +5,6 @@ langchain-core
 langchain-openai
 langchain-community
 langchain-text-splitters
-chromadb>=0.4.0,<0.5.0          # keep but pin version
-pypdf2
+chromadb>=0.4.0,<0.5.0
+pypdf
+tiktoken

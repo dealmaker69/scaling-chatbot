@@ -205,3 +205,36 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+####
+.env
+*.env
+test_env.py
+test-env.py
+chroma_db*
+chromadb*
+__pycache__/
+*.pyc
+.chainlit/
+.python-version
+venv/
+.venv/
+###
+# Secrets & env
+.env
+*.env
+test_env.py
+test-env.py
+
+# Cache & databases
+__pycache__/
+*.pyc
+*.pyo
+.chainlit/
+chroma_db*
+chromadb*
+*.db
+*.sqlite3
+
+# Large data folders (don't commit knowledge in repo for deployment)
+Knowledge_Example/
+knowledge/
