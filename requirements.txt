@@ -1,6 +1,7 @@
 chainlit>=1.0.0
 openai>=1.0.0
 python-dotenv
+langchain
 langchain-core
 langchain-openai
 langchain-community
